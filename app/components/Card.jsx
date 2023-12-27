@@ -4,9 +4,9 @@ import { AiOutlineLike} from 'react-icons/ai'
 
 const Card = ({result}) => {
   return (
-    <div className='border sm:p-3 cursor-pointer sm:shadow-md
+    <div className='border border-gray-100 sm:p-3 cursor-pointer sm:shadow-md
         sm:hover:shadow-slate-400 sm:m-2 rounded-lg 
-        transition-shadow duration-200 group
+        transition-shadow duration-200 group m-1
     ' >
         <Link  href={"/"}  >
             <Image src={`https://image.tmdb.org/t/p/w500/${result.backdrop_path}`}
