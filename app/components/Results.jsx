@@ -8,7 +8,7 @@ const Results = ({results}) => {
         {
             results.map((result)=>{
                 return(
-                    <Card result={result} />
+                    <Card key={result.id} result={result} />
                 )
             })
         }
