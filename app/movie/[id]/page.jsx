@@ -19,7 +19,7 @@ const MoviePage =async ({params}) => {
     console.log(data)
     
   return (
-    <div className="sm:flex  mt-10">
+    <div className="sm:flex mt-2  sm:mt-10">
         <div className=" sm:flex-1 -">
         <Image src={`https://image.tmdb.org/t/p/w500/${data.backdrop_path}`}
                     alt='Image'
