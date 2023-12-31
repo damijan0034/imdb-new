@@ -8,7 +8,7 @@ const Card = ({result}) => {
         sm:hover:shadow-slate-400 sm:m-2 rounded-lg 
         transition-shadow duration-200 group m-1 overflow-hidden
     ' >
-        <Link  href={"/"}  >
+        <Link  href={`/movie/${result.id}`}  >
             <Image src={`https://image.tmdb.org/t/p/w500/${result.backdrop_path}`}
                     alt='Image'
                     width={500} height={300}
