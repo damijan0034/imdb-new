@@ -10,7 +10,7 @@ const Header = () => {
         <div className='flex container'>
             <MenuItem 
                 title="HOME" 
-                address="/home"
+                address="/"
                 Icon={FaHome}
                 
                 />
