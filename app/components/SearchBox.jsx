@@ -22,7 +22,7 @@ const handleSubmit=(e)=>{
         placeholder='Search Keyword...'
         onChange={((e)=>setSearch(e.target.value))}
         />
-        <button className='text-gray-100'>Search</button>
+        <button className='text-gray-300 focus:outline-none'>Search</button>
     </form>
   )
 }
