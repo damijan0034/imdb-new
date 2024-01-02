@@ -15,14 +15,14 @@ const handleSubmit=(e)=>{
 }
     
   return (
-    <form className='flex px-3 py-6 '
+    <form className='flex px-3 pt-6 '
         onSubmit={handleSubmit}
     >
         <input type="text" className='w-full bg-transparent focus:outline-none' 
         placeholder='Search Keyword...'
         onChange={((e)=>setSearch(e.target.value))}
         />
-        <button className='text-gray-300 focus:outline-none'>Search</button>
+        <button className='text-gray-400 focus:outline-none'>Search</button>
     </form>
   )
 }
